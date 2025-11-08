@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  background-color: #27264b;
+  color: #433f63;
+}
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  background-color: rgb(243, 242, 242);
+  border-radius: 6px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 3px 7px black;
+  width: 100%;
+}
+ul {
+  list-style-type: none;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.btn {
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px;
+  width: 100%;
+  font-size: 15px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 15px;
+}
+
+.free {
+  background-color: rgb(226, 236, 249);
+}
+
+.pro {
+  background: linear-gradient(to right, #a1acdb, #7a2ee5);
+  color: white;
+}
+
+.enterprise {
+  background: linear-gradient(to right, #e52e71, #ff8a00);
+  color: white;
+}
+
+.btnpro{
+  background-color: black;
+  color: white;
+}
+
+.btn:hover{
+  background-color: black;
+  color: white;
+}
+
+.btnpro:hover{
+  background-color: white;
+  color: black;
+}
+
+.price{
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+
+i{
+    padding: 5px;
+}
+
+span{
+  font-size: 45px;
+}
+
+sup{
+  position: relative;
+  bottom: 18px;
+  font-size: 18px;
+}
+
+.main-txt{
+  margin-bottom: 50px;
+}
